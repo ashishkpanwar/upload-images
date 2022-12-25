@@ -1,0 +1,10 @@
+<button type="button" class="btn btn-primary btn-sm fw-bold p-1 px-3"
+          (click)="route()">
+          upload Images
+        </button>
+<ul>
+    <li *ngFor="let image of images">
+     {{image.fileName}}
+     <img  src="assets/{{image.path}}" alt="" />
+    </li>
+  </ul>

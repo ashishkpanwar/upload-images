@@ -1,0 +1,38 @@
+<div class="modal-body text-center">
+    <form class="needs-validation" autocomplete="off" [formGroup]="userForm">
+    <div class="form-group">
+        <label for="file-name" class="btn btn-primary fw-bold">File Name
+        </label>
+        <div id="file-upload-filename"></div>
+        <input id="file-name" type="text" 
+          formControlName="fileName" class="form-control" 
+          placeholder="Enter File Name..." />
+        <div *ngIf="submitted && f.fileName.errors" class="invalid-feedback">
+          <div *ngIf="f.fileName.errors.required">
+            File name is required
+          </div>
+        </div>
+      <label for="file-upload" class="btn btn-primary fw-bold">Browse
+      </label>
+      <div id="file-upload-filename"></div>
+      <input id="file-upload" type="file" 
+        formControlName="newFileUpload"  class="form-control" (change)="handleFileInput($event)"
+        placeholder="Upload file..." />
+      <div *ngIf="submitted && f.newFileUpload.errors" class="invalid-feedback">
+        <div *ngIf="f.newFileUpload.errors.required">
+          File is required
+        </div>
+      </div>
+    </div>
+</form>
+</div>
+    <div class="modal-footer justify-content-center float-end content-border buttons-padding">
+        <button type="button" class="btn btn-primary btn-sm fw-bold p-1 px-3"
+          (click)="saveFile()">
+          Save
+        </button>
+        <button type="button" class="btn btn-primary btn-sm fw-bold p-1 px-3"
+          (click)="route()">
+          See Images
+        </button>
+      </div>
