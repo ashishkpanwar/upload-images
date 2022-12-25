@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{152A6B7E-99DC-40E1-8F5D-E0C89125B671}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ashishkpanwar/Desktop/Ashish Study/DotNet core Practice/Practice_1/Practice_1/Controllers/WeatherForecastController.cs" relfile="Practice_1/Controllers/WeatherForecastController.cs" line="60" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Practice_1/Controllers/WeatherForecastController.cs">
+    <Files>
+      <File FileName="Practice_1/Program.cs" Line="11" Column="46" />
+      <File FileName="Practice_1/appsettings.Development.json" Line="10" Column="1" />
+      <File FileName="Practice_1/appsettings.json" Line="12" Column="2" />
+      <File FileName="Practice_1/Controllers/WeatherForecastController.cs" Line="60" Column="1" />
+      <File FileName="Practice_1/Models/FileModel.cs" Line="11" Column="1" />
+      <File FileName="Practice_1/Db/DbContext.cs" Line="28" Column="23" />
+      <File FileName="Practice_1/Db/Image.cs" Line="3" Column="21" />
+      <File FileName="Practice_1/Properties/launchSettings.json" Line="16" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Practice_1" expanded="True">
+            <Node name="Practice_1" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Db" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Practice__1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
