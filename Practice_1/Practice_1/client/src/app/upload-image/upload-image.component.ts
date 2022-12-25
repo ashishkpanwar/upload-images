@@ -46,10 +46,10 @@ export class UploadImageComponent implements OnInit {
     this.http.post(`https://localhost:4300/Files`, formData).subscribe(
       {
         next: resposne => {
-          this.isLoading = false
+          alert("Image Added")
         },
         error: (error) => {
-          this.isLoading = false
+          alert("Some error happened, please try again")
         }
       }
     )
